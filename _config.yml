@@ -16,7 +16,7 @@
 title: Bio Image Analysis
 description: This GitBook is a collection of resources for someone starting into the area of bio-image analysis. It is specially focused on histopathology, but should be useful in analysing other images of this field in general.
 baseurl: "/bioimage-analysis" # the subpath of your site, e.g. /blog
-url: "https://github.com/Amit-Tomar" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://amit-tomar.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
