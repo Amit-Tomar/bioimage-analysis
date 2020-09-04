@@ -4,10 +4,8 @@
 
 ## Installation
 
-Clone the repos and install dependencies:
+Clone the repo and install dependencies as mentioned in the [Jekyll docs](https://jekyllrb.com/docs/)
 
-    $ gem install bundler jekyll
+To serve locally : 
 
-To execute locally : 
-
-    bundle exec jekyll serve
+    bundle exec jekyll serve --livereload
