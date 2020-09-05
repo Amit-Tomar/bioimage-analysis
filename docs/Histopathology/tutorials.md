@@ -13,7 +13,7 @@ nav_order: 6
 
 BioImage Analysis
 
-1. Complete set of lectures for Bio Imaging from [Robert Haase](https://myerslab.mpi-cbg.de/robert-haase/) covering all aspects of bio image analysis.
+1. [Complete set of lectures](https://www.youtube.com/playlist?list=PL5ESQNfM5lc7SAMstEu082ivW4BDMvd0U) for Bio Imaging from [Robert Haase](https://myerslab.mpi-cbg.de/robert-haase/) covering all aspects of bio image analysis.
 
-https://www.youtube.com/playlist?list=PL5ESQNfM5lc7SAMstEu082ivW4BDMvd0U
+
 
