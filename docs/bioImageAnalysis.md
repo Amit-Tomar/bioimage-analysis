@@ -49,7 +49,7 @@ Image size is the number of pixels along the width of image vs the number of pix
 
  Lookup table provides a mapping from the intensity value present at a pixel to a new value. They can be used to change the visual output of an image. eg. inverting a grey scale image such that white values become black and black become white, or mapping grey scale image to a red color image.
 
- ## Histograms
+## Histogram
 
  Image histograms tells about how the pixels are distributed in terms of the intensities. This is helpful to get a macro view as to how many pixels fall in a given range of intensity values.
 
