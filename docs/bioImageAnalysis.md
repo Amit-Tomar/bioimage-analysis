@@ -15,6 +15,7 @@ nav_order: 2
 {:toc}
 
 ---
+
 ## Bio image analysis
 
 Bio image analysis involves different steps : 
@@ -47,7 +48,7 @@ Image size is the number of pixels along the width of image vs the number of pix
 ## Bit depth
  A bit depth of n represents that a total of 2<sup>n</sup> intensity values are possible in the image matrix. More bit depth leads to smoothness of intensities and thus much smoother image.
 
- ## Lookup table
+## Lookup table
 
  Lookup table provides a mapping from the intensity value present at a pixel to a new value. They can be used to change the visual output of an image. eg. inverting a grey scale image such that white values become black and black become white, or mapping grey scale image to a red color image.
 
