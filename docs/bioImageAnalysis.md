@@ -5,9 +5,6 @@ nav_order: 2
 
 ---
 
-# Tools
-{: .no_toc }
-
 ## Table of contents
 {: .no_toc .text-delta }
 
@@ -54,9 +51,9 @@ Image size is the number of pixels along the width of image vs the number of pix
 
 ## Further reading
 
-1. Understanding Resolution in Digital Microscopy Blog Post Teledyne Lumenera. https://www.lumenera.com/blog/understanding-resolution-in-digital-microscopy.
-2. Photoshop image size and resolution. https://helpx.adobe.com/in/photoshop/using/image-size-resolution.html#about_pixel_dimensions_and_printed_image_resolution.
-3. Methods to determine the size of an object in microns - OpenWetWare. https://openwetware.org/wiki/Methods_to_determine_the_size_of_an_object_in_microns.
-4. Adding scale bars to images using ImageJ. http://www.swarthmore.edu/NatSci/nkaplin1/scalebar.htm.
-5. A Guide to Choosing the Right Digital Microscope Camera for the Application. https://www.leica-microsystems.com/company/news/news-details/article/a-guide-to-choosing-the-right-digital-microscope-camera-for-the-application/.
-6. DeRose, J. A. & Doppler, M. Guidelines for Understanding Magnification in the Modern Digital Microscope Era. Microscopy Today 26, 20–33 (2018). https://www.cambridge.org/core/journals/microscopy-today/article/guidelines-for-understanding-magnification-in-the-modern-digital-microscope-era/E99CB37B30B5DCF7654A17A44A6A682F
+1. [Understanding Resolution in Digital Microscopy Blog Post Teledyne Lumenera.](https://www.lumenera.com/blog/understanding-resolution-in-digital-microscopy.)
+2. [Photoshop image size and resolution.]( https://helpx.adobe.com/in/photoshop/using/image-size-resolution.html#about_pixel_dimensions_and_printed_image_resolution.)
+3. [Methods to determine the size of an object in microns - OpenWetWare.](https://openwetware.org/wiki/Methods_to_determine_the_size_of_an_object_in_microns).
+4. [Adding scale bars to images using ImageJ.]( http://www.swarthmore.edu/NatSci/nkaplin1/scalebar.htm.)
+5. [A Guide to Choosing the Right Digital Microscope Camera for the Application.]( https://www.leica-microsystems.com/company/news/news-details/article/a-guide-to-choosing-the-right-digital-microscope-camera-for-the-application/.)
+6. [DeRose, J. A. & Doppler, M. Guidelines for Understanding Magnification in the Modern Digital Microscope Era. Microscopy Today 26, 20–33 (2018). ](https://www.cambridge.org/core/journals/microscopy-today/article/guidelines-for-understanding-magnification-in-the-modern-digital-microscope-era/E99CB37B30B5DCF7654A17A44A6A682F)
