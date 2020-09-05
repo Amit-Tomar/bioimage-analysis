@@ -11,6 +11,11 @@ nav_order: 2
 ## Table of contents
 {: .no_toc .text-delta }
 
+1. TOC
+{:toc}
+
+---
+
 ## Fiji
 
 Fiji is an wrapper over ImageJ which has lot of plugins pre-installed and provides east updates to them. It provides high level operations like tracking, segmentation, directionality etc. and low level image operations like edge detection, background removal, blurring etc. UI for it is complex and so **best way to use it is by directly using the search box** for opening up the relevant plugin. Buttons in the **UI provide more options with right-click, double click**. Fiji has many inbuilt sample datasets which are a great source to test out Fiji. A typical worlflow looks like this :
