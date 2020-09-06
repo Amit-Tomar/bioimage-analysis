@@ -54,7 +54,7 @@ We can set the measurements we are interested in and then **calculate the values
 
 ## ROI manager
 
-It can be used to keep a track of various ROIs we are interested in and then run measurement operation on them as required. **Press T key to add the ROI ti ROI manager**
+It can be used to keep a track of various ROIs we are interested in and then run measurement operation on them as required. **Press T key to add the ROI to ROI manager**
 
 ## Image Operations
 
@@ -76,19 +76,20 @@ b. Substract/Divide the original image with the background
 
 - **Types of Filters**
 
-1. Linear Filter
-We move a nxn matrix on all the pixels and then calculate the value at given pixel based on all pixels in this matrix. This matrix is called moving window/rolling ball. eg. replacing a pixel with average of all the pixels in moving window.
+  1. Linear Filter
+  We move a nxn matrix on all the pixels and then calculate the value at given pixel based on all pixels in this matrix. This matrix is called moving window/rolling ball. eg. replacing a pixel with average of all the pixels in moving window.
 
-2. Non-Linear Filter 
-Here the pixel is replaced but with a non linear value. eg. replace the value with mean/max/median of all pixels in the moving window. 
+  2. Non-Linear Filter 
+  Here the pixel is replaced but with a non linear value. eg. replace the value with mean/max/median of all pixels in the moving window. 
 
 - **Edge detection**
 It is used to extract out surfaces from the image. Applying a median filter before hand will help in getting a better output.
 
 When we want to count the objects, it might make sense to substract the edges from the original image so that objects which are very close to each other get clearly seperated. This will give better results during the segmentation operation. eg. workflow :
 
-a. Extract the edges
-b. Substract the edges from original image.
+ a. Extract the edges
+
+ b. Substract the edges from original image.
 
 2. **Segmentation**
 
