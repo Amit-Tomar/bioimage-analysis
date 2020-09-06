@@ -6,9 +6,6 @@ permalink: /docs/Tutorials
 nav_order: 7
 ---
 
-# Tutorials
-{: .no_toc }
-
 ## Table of contents
 {: .no_toc .text-delta }
 
