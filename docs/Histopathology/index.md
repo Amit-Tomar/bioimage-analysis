@@ -6,8 +6,7 @@ has_children: true
 permalink: /docs/Histopathology
 ---
 
-1. TOC
-{:toc}
+{: .no_toc }
 
 ---
 
