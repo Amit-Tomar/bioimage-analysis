@@ -1,12 +1,9 @@
 ---
 layout: default
-title: Tools
-parent: Histopathology
-nav_order: 2
+title: Fiji
+parent: Tools
+nav_order: 1
 ---
-
-# Tools
-{: .no_toc }
 
 ## Table of contents
 {: .no_toc .text-delta }

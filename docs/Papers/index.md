@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Tools
-nav_order: 3
+title: Papers
 has_children: true
-permalink: /docs/Histopathology/Tools
+permalink: /docs/Papers
+nav_order: 3
 ---
 
-# Tools
+# Papers
 {: .no_toc }
 
 ## Table of contents
@@ -16,3 +16,4 @@ permalink: /docs/Histopathology/Tools
 {:toc}
 
 ---
+

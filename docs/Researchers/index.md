@@ -1,11 +1,12 @@
 ---
 layout: default
-title: Research Groups
-parent: Histopathology
-nav_order: 2
+title: Researchers
+has_children: true
+permalink: /docs/Researchers
+nav_order: 4
 ---
 
-# Tools
+# Researchers
 {: .no_toc }
 
 ## Table of contents

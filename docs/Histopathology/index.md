@@ -1,13 +1,10 @@
 ---
 layout: default
 title: Histopathology
-nav_order: 3
+nav_order: 1
 has_children: true
 permalink: /docs/Histopathology
 ---
-
-# Tools
-{: .no_toc }
 
 ## Table of contents
 {: .no_toc .text-delta }

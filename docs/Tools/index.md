@@ -1,12 +1,10 @@
 ---
 layout: default
-title: Datasets
-parent: Histopathology
-nav_order: 2
+title: Tools
+nav_order: 5
+has_children: true
+permalink: /docs/Tools
 ---
-
-# Tools
-{: .no_toc }
 
 ## Table of contents
 {: .no_toc .text-delta }

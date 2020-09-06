@@ -1,11 +1,12 @@
 ---
 layout: default
-title: Papers
-parent: Histopathology
+title: Datasets
+has_children: true
+permalink: /docs/Datasets
 nav_order: 2
 ---
 
-# Tools
+# Datasets
 {: .no_toc }
 
 ## Table of contents
@@ -15,4 +16,3 @@ nav_order: 2
 {:toc}
 
 ---
-
