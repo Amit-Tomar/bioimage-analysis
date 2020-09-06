@@ -56,6 +56,16 @@ We can set the measurements we are interested in and then **calculate the values
 
 It can be used to keep a track of various ROIs we are interested in and then run measurement operation on them as required. **Press T key to add the ROI ti ROI manager**
 
+## Image Operations
+
+Various image operations we can perform in Fiji can be divided as follows :
+
+1. **Filteration**
+
+We apply an algorithm which filters the intensity values of selected pixels in the image. 
+
+
+
 ### Further reading / References
 
 1. [Lecture 2-10](https://www.youtube.com/watch?v=Akedfyp5AxY&list=PL5ESQNfM5lc7SAMstEu082ivW4BDMvd0U&index=2)

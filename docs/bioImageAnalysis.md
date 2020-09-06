@@ -47,7 +47,7 @@ Image size is the number of pixels along the width of image vs the number of pix
 
 ## Lookup table
 
- Lookup table provides a mapping from the intensity value present at a pixel to a new value. They can be used to change the visual output of an image. eg. inverting a grey scale image such that white values become black and black become white, or mapping grey scale image to a red color image.
+ Lookup table provides a mapping from the intensity value present at a pixel to a new value. They can be used to change the visual output of an image. eg. inverting a grey scale image such that white values become black and black become white, or mapping grey scale image to a red color image. Applying **lookup tables does not modify the image values**, they only the output visually on the display device.
 
 ## Histogram
 
