@@ -59,7 +59,7 @@ Various image operations we can perform in Fiji can be divided as follows :
 
 1. Filteration
 
-We apply an algorithm which modifies the intensity values of selected pixels in the image. eg.
+ We apply an algorithm which modifies the intensity values of selected pixels in the image. eg.
 
   - **Background noise / artifact removal**
   Noise is an unintended change in the signal value while capturing/storing/handling the data. eg. not focused lens while capturing data using microscope, issue with analog-to-digital converter etc. With too much noise in the image, algorithms like segmentation find difficult to find relevant structures easiely. **When the variation in the background values is less, it is easy to differentiate the objects.** eg. workflow :
@@ -88,11 +88,11 @@ We apply an algorithm which modifies the intensity values of selected pixels in 
 
 2. **Segmentation**
 
-For objects to be seperately identified in the images, we perform the segmentation operation. This involves replacing all the intensities in the image with just two, 0 and 1. This helps define clear boundaries of what is it that we consider as an individual object and where are its boundaries. It is a process of discreatisation of the image from large varying values. 
+ For objects to be seperately identified in the images, we perform the segmentation operation. This involves replacing all the intensities in the image with just two, 0 and 1. This helps define clear boundaries of what is it that we consider as an individual object and where are its boundaries. It is a process of discreatisation of the image from large varying values. 
 
 3. **Thresholding**
 
-It is the process of defining certain threshold value, and all values above/below it are then replaced with this fix value. 
+ It is the process of defining certain threshold value, and all values above/below it are then replaced with this fix value. 
 
  - **Otsu's method**
   We consider all the possible threshold values from minimum to maximum intensity and plot the classes above/below the threshold value. We then calculate the variance in the pixel intensities in these classes. When the sum of variance of all the classes is minimal, it is a good point to do thresholding. Taking weighted variance (number of pixels in the class/total pixel * variance ) gives better results. [Further Reading](http://www.labbookpages.co.uk/software/imgProc/otsuThreshold.html)
