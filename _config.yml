@@ -107,3 +107,5 @@ compress_html:
   startings: []
   blanklines: false
   profile: false
+
+  markdown: CommonMarkGhPages
