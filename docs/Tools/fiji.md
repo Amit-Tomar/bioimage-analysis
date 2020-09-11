@@ -14,7 +14,9 @@ nav_order: 1
 ---
 
 # Fiji
+{: .no_toc }
 
+---
 Fiji is an wrapper over ImageJ which has lot of plugins pre-installed and provides east updates to them. It provides high level operations like tracking, segmentation, directionality etc. and low level image operations like edge detection, background removal, blurring etc. UI for it is complex and so **best way to use it is by directly using the search box** for opening up the relevant plugin. Buttons in the **UI provide more options with right-click, double click**. Fiji has many inbuilt sample datasets which are a great source to test out Fiji. A typical worlflow looks like this :
 
 1. Thresholding : Distinguish objects/background.
@@ -53,56 +55,61 @@ We can set the measurements we are interested in and then **calculate the values
 
 It can be used to keep a track of various ROIs we are interested in and then run measurement operation on them as required. **Press T key to add the ROI to ROI manager**
 
-## Image Operations
+---
+
+# Image Operations
 
 Various image operations we can perform in Fiji can be divided as follows :
 
-1. **Filteration**
+## Filteration
 
-   We apply an algorithm which modifies the intensity values of selected pixels in the image. eg.
+We apply an algorithm which modifies the intensity values of selected pixels in the image. eg.
 
-     - **Background noise / artifact removal**
-     Noise is an unintended change in the signal value while capturing/storing/handling the data. eg. not focused lens while capturing data using microscope, issue with analog-to-digital converter etc. With too much noise in the image, algorithms like segmentation find difficult to find relevant structures easiely. **When the variation in the background values is less, it is easy to differentiate the objects.** eg. workflow :
-        1. Extract the background
-        2. Substract/Divide the original image with the background
+### Background noise / artifact removal
 
-    - **Contrast enhancement**
-    - **Correcting uneven illumination**
+Noise is an unintended change in the signal value while capturing/storing/handling the data. eg. not focused lens while capturing data using microscope, issue with analog-to-digital converter etc. With too much noise in the image, algorithms like segmentation find difficult to find relevant structures easiely. **When the variation in the background values is less, it is easy to differentiate the objects.** eg. workflow :
 
-    ### Types of Filters
+1. Extract the background
+2. Substract/Divide the original image with the background
 
-      1. Linear Filter
+### Contrast enhancement
+### Correcting uneven illumination
+
+### Types of Filters
+
+1. Linear Filter
+We move a nxn matrix on all the pixels and then calculate the value at given pixel based on all pixels in this matrix. This matrix is called moving window/rolling ball. eg. replacing a pixel with average of all the pixels in moving window.
+
+1. Non-Linear Filter 
    
-      We move a nxn matrix on all the pixels and then calculate the value at given pixel based on all pixels in this matrix. This matrix is called moving window/rolling ball. eg. replacing a pixel with average of all the pixels in moving window.
+Here the pixel is replaced but with a non linear value. eg. replace the value with mean/max/median of all pixels in the moving window. 
 
-      2. Non-Linear Filter 
-   
-      Here the pixel is replaced but with a non linear value. eg. replace the value with mean/max/median of all pixels in the moving window. 
+### Edge detection
+It is used to extract out surfaces from the image. Applying a median filter before hand will help in getting a better output. When we want to count the objects, it might make sense to substract the edges from the original image so that objects which are very close to each other get clearly seperated. This will give better results during the segmentation operation. eg. workflow :
 
-    ### Edge detection
-    It is used to extract out surfaces from the image. Applying a median filter before hand will help in getting a better output. When we want to count the objects, it might make sense to substract the edges from the original image so that objects which are very close to each other get clearly seperated. This will give better results during the segmentation operation. eg. workflow :
+- Extract the edges
+- Substract the edges from original image.
 
-     - Extract the edges
-     - Substract the edges from original image.
-
-2. **Segmentation**
+## Segmentation
+---
 
    For objects to be seperately identified in the images, we perform the segmentation operation. This involves replacing all the intensities in the image with just two, 0 and 1. This helps define clear boundaries of what is it that we consider as an individual object and where are its boundaries. It is a process of discreatisation of the image from large varying values. 
 
-3. **Thresholding**
+## Thresholding
+---
 
-   It is the process of defining certain threshold value, and all values above/below it are then replaced with this fix value. 
+It is the process of defining certain threshold value, and all values above/below it are then replaced with this fix value. 
 
-   ### Otsu's method
-   We consider all the possible threshold values from minimum to maximum intensity and plot the classes above/below the threshold value. We then calculate the variance in the pixel intensities in these classes. When the sum of variance of all the classes is minimal, it is a good point to do thresholding. Taking weighted variance (number of pixels in the class/total pixel * variance ) gives better results. [Further Reading](http://www.labbookpages.co.uk/software/imgProc/otsuThreshold.html)
+### Otsu's method
+We consider all the possible threshold values from minimum to maximum intensity and plot the classes above/below the threshold value. We then calculate the variance in the pixel intensities in these classes. When the sum of variance of all the classes is minimal, it is a good point to do thresholding. Taking weighted variance (number of pixels in the class/total pixel * variance ) gives better results. [Further Reading](http://www.labbookpages.co.uk/software/imgProc/otsuThreshold.html)
 
-   **We should not be finding the thresholding value manually and should reply on different algorithms.**
+**We should not be finding the thresholding value manually and should reply on different algorithms.**
 
-   ### Refining masks
-   Images generated after thrsholding might not be perfect. We have to perform operations like binary opening/closing to refine the shapes further. In the dilation operation, we grow the pixels with a given outwards such that the neighbors also get the same intensity. In the erosin operation, we shrink the pixels with given intensity inwards such that the given pixels boundaries are replaced with newighboring pixels. Closing operation does dilation followed by erosin. Opening operation does erosin followed by dilation.
+### Refining masks
+Images generated after thrsholding might not be perfect. We have to perform operations like binary opening/closing to refine the shapes further. In the dilation operation, we grow the pixels with a given outwards such that the neighbors also get the same intensity. In the erosin operation, we shrink the pixels with given intensity inwards such that the given pixels boundaries are replaced with newighboring pixels. Closing operation does dilation followed by erosin. Opening operation does erosin followed by dilation.
 
-   ### Watershed algorithm
-   This algorithm works on the binary image and divides the regions into smaller parts. This does not take into account the original image and just works with the binary repersentation obtained from previous steps.
+### Watershed algorithm
+This algorithm works on the binary image and divides the regions into smaller parts. This does not take into account the original image and just works with the binary repersentation obtained from previous steps.
 
 ## Further reading / References
 
