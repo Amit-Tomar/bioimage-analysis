@@ -16,3 +16,6 @@ nav_order: 2
 {:toc}
 
 ---
+
+1. [Sample Whole Slide Images](https://qupath.readthedocs.io/en/latest/docs/intro/acknowledgements.html)
+2. 
