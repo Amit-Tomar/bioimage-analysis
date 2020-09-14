@@ -17,5 +17,5 @@ nav_order: 2
 
 ---
 
-1. [Sample Whole Slide Images](https://qupath.readthedocs.io/en/latest/docs/intro/acknowledgements.html)
-2. 
+1. [Sample Whole Slide Images from qupath](https://qupath.readthedocs.io/en/latest/docs/intro/acknowledgements.html)
+2. [Sample Whole Side Images from OpenSlide](http://openslide.cs.cmu.edu/download/openslide-testdata/)

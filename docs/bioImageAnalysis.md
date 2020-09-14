@@ -61,3 +61,4 @@ Image size is the number of pixels along the width of image vs the number of pix
 4. [Adding scale bars to images using ImageJ.]( http://www.swarthmore.edu/NatSci/nkaplin1/scalebar.htm)
 5. [A Guide to Choosing the Right Digital Microscope Camera for the Application.]( https://www.leica-microsystems.com/company/news/news-details/article/a-guide-to-choosing-the-right-digital-microscope-camera-for-the-application/)
 6. [DeRose, J. A. & Doppler, M. Guidelines for Understanding Magnification in the Modern Digital Microscope Era. Microscopy Today 26, 20–33 (2018). ](https://www.cambridge.org/core/journals/microscopy-today/article/guidelines-for-understanding-magnification-in-the-modern-digital-microscope-era/E99CB37B30B5DCF7654A17A44A6A682F)
+7. [QuPath description of bio imaging concepts](https://qupath.readthedocs.io/en/latest/docs/concepts/images.html)
