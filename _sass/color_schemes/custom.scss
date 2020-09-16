@@ -27,3 +27,8 @@ blockquote {
   blockquote p {
     display: inline;
   }
+
+  ol li:before {
+    content: counter(level1) ". ";
+    counter-increment: level1;
+  }
