@@ -1,5 +1,6 @@
 $link-color: #333;
 
+// Custom blockquote style
 blockquote {
     background: #f9f9f9;
     border-left: 10px solid #ccc;
@@ -28,7 +29,8 @@ blockquote {
     display: inline;
   }
 
+  // Added dot before the numbered lists
   .main-content li:before {
-    content: counter(level1) ". " !important;
-    counter-increment: level1 !important;
+    content: counter(step-counter) "." !important;
+    counter-increment: step-counter !important;
   }
