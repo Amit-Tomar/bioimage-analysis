@@ -24,6 +24,9 @@ nav_order: 5
 
 2. [Angel Alfonso](https://sites.google.com/site/aacruzr/)
 
+3. [Network of Europian bio-image analysts ](http://eubias.org/NEUBIAS/) has lots of resources on this topic. 
+
+
 ## Forums
 
 1. [Image SC](https://forum.image.sc/) allows you to discuss specific image analysis tasks and get help on how to get them done using different kind of tools. 

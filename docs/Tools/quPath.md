@@ -29,8 +29,6 @@ QuPath can run cell detection based on some user specified parameters like thres
 ## Futher reading / References
 
 1. [Official QuPath tutorials](https://www.youtube.com/c/qupath) explains all the use cases nicely.
-
 2. [Quantitative Pathology & BioImage Analysis: QuPath - [NEUBIASAcademy@Home] Webinar](https://www.youtube.com/watch?v=4An5n6Y_rRI&feature=youtu.be)
-   
 3. [QuPath 2020 workshop “From Samples to Knowledge”](https://www.youtube.com/playlist?list=PLlGXRBscPbCD89fRULm4peopF57qugciN)
 --- 

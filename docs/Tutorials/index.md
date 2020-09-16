@@ -26,3 +26,9 @@ nav_order: 7
 1. [All slides](https://git.mpi-cbg.de/rhaase/lecture_applied_bioimage_analysis_2020) for Bio Imaging lectures from [Robert Haase](https://myerslab.mpi-cbg.de/robert-haase/).
 
 ## Blogs
+
+## Collections
+
+1. [Recommended reading for Bip Imaging](https://forum.image.sc/t/bioimage-analysis-recommended-reading-and-viewing/28051)
+
+2. [ibiology Lectures](https://www.ibiology.org/) on various Bio Imaging topics.

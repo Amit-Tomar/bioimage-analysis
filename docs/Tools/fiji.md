@@ -109,6 +109,7 @@ This algorithm works on the binary image and divides the regions into smaller pa
 # Further reading / References
 
 1. [Lecture 2-10](https://www.youtube.com/watch?v=Akedfyp5AxY&list=PL5ESQNfM5lc7SAMstEu082ivW4BDMvd0U&index=2)
+2. [Analyzing fluorescence microscopy images with ImageJ](https://petebankhead.gitbooks.io/imagej-intro/content/)
 
 
 --- 

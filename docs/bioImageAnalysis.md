@@ -51,7 +51,11 @@ Image size is the number of pixels along the width of image vs the number of pix
 
 ## Histogram
 
- Image histograms tells about how the pixels are distributed in terms of the intensities. This is helpful to get a macro view as to how many pixels fall in a given range of intensity values.
+ Image histograms tells about how the pixels are distributed in terms of the intensities. This is helpful to get a macro view as to how many pixels fall in a given range of intensity values. Many tools provide the ability to tweak the minimum/maximum value of intensities along with the historgram. This helps in giving a better spread of colors in case ost of the intensities lie in a small region.
+
+ ## Staining 
+
+ [Cancer cells](https://www.microscopemaster.com/cancer-cells.html)
 
 ## Further reading / References
 
