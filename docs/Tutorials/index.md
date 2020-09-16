@@ -20,6 +20,8 @@ nav_order: 7
 
 3. [NEUBIASAcademy Webinars](https://www.youtube.com/c/NEUBIAS/playlists) Has very good collection of talks on various bio imaging tools and bio imaging in general.
 
+4. [Keynote: Open Source Bioimage Analysis Software to Accelerate Drug Discovery | SciPy | A. Carpenter](https://www.youtube.com/watch?v=c9wwTBsuKXA)
+
 
 ## Slides
 

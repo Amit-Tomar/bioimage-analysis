@@ -42,6 +42,8 @@ Image size is the number of pixels along the width of image vs the number of pix
 ## Microscope Resolution
  Microscope reolution is the smallest distance that can be captured by the microscope. In terms of digital microsope, it would refer to the smallest distance between two points such that microsope is able to distinguish between the signal value at these points. 
 
+ [Sampling, Aliasing & Nyquist Theorem](https://www.youtube.com/watch?v=yWqrx08UeUs)
+
 ## Bit depth
  A bit depth of n represents that a total of 2<sup>n</sup> intensity values are possible in the image matrix. More bit depth leads to smoothness of intensities and thus much smoother image.
 
@@ -52,8 +54,8 @@ Image size is the number of pixels along the width of image vs the number of pix
 ## Histogram
 
  Image histograms tells about how the pixels are distributed in terms of the intensities. This is helpful to get a macro view as to how many pixels fall in a given range of intensity values. Many tools provide the ability to tweak the minimum/maximum value of intensities along with the historgram. This helps in giving a better spread of colors in case ost of the intensities lie in a small region.
-
- ## Staining 
+ 
+## Staining 
 
  [Cancer cells](https://www.microscopemaster.com/cancer-cells.html)
 

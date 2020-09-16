@@ -26,6 +26,8 @@ nav_order: 5
 
 3. [Network of Europian bio-image analysts ](http://eubias.org/NEUBIAS/) has lots of resources on this topic. 
 
+4. [Carpenter Lab](https://carpenterlab.broadinstitute.org/) - Creators of cell profiler.
+
 
 ## Forums
 
