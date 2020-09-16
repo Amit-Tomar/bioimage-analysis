@@ -20,7 +20,7 @@ nav_order: 7
 
 3. [NEUBIASAcademy Webinars](https://www.youtube.com/c/NEUBIAS/playlists) Has very good collection of talks on various bio imaging tools and bio imaging in general.
 
-4. [Keynote: Open Source Bioimage Analysis Software to Accelerate Drug Discovery | SciPy | A. Carpenter](https://www.youtube.com/watch?v=c9wwTBsuKXA)
+4. [Keynote: Open Source Bioimage Analysis Software to Accelerate Drug Discovery - SciPy - A. Carpenter](https://www.youtube.com/watch?v=c9wwTBsuKXA)
 
 
 ## Slides
@@ -31,6 +31,6 @@ nav_order: 7
 
 ## Collections
 
-1. [Recommended reading for Bip Imaging](https://forum.image.sc/t/bioimage-analysis-recommended-reading-and-viewing/28051)
+1. [Recommended reading for Bio Imaging](https://forum.image.sc/t/bioimage-analysis-recommended-reading-and-viewing/28051)
 
 2. [ibiology Lectures](https://www.ibiology.org/) on various Bio Imaging topics.

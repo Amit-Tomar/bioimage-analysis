@@ -1,11 +1,11 @@
 ---
 layout: default
-title: CellProfiler
+title: 3DImageJSuite
 parent: Tools
 nav_order: 2
 ---
 
-# CellProfiler
+# 3DImageJSuite
 
 ## Table of contents
 {: .no_toc .text-delta }
