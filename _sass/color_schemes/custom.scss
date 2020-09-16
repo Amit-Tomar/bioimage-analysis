@@ -31,33 +31,25 @@ blockquote {
 
   // Added dot before the numbered lists and make sub level numbering as roman
   ol {
-    list-style-type: none;
-    counter-reset: step-counter;
 
     > li {
-      position: relative;
 
       &::before {
-        position: absolute;
-        top: 0.2em;
-        left: -1.6em;
-        color: $grey-dk-000;
-        content: counter(step-counter) ".";
-        counter-increment: step-counter;
-        @include fs-3;
-
-        @include mq(sm) {
-          top: 0.11em;
-        }
+        content: counter(step-counter) "." !important;
       }
 
       ol {
-        counter-reset: sub-counter;
-
         li {
           &::before {
-            content: counter(sub-counter, lower-roman) ".";
-            counter-increment: sub-counter;
+            content: counter(sub-counter, lower-roman) "." !important;
+          }
+
+          ol {
+            li {
+              &::before {
+                content: counter(sub-counter, lower-alpha) "." !important;
+              }
+            }
           }
         }
       }
