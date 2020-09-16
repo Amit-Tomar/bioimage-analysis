@@ -24,5 +24,5 @@ Capabilities of different tools :
 > 2. CellProfiler and KNIME, especially for high-throughput analysis and data mining.
 > 3. ilastik, especially when its powerful machine learning features are needed to identify or classify challenging structures.
 > 4. QuPath, especially for digital pathology or whole slide image analysis.
-
-> **Source** : https://petebankhead.gitbooks.io/imagej-intro/content/
+> 
+> [Source](https://petebankhead.gitbooks.io/imagej-intro/content/)
