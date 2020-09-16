@@ -29,5 +29,6 @@ blockquote {
   }
 
   .main-content li:before {
-    content: ". " !important;
+    content: counter(level1) ". " !important;
+    counter-increment: level1 !important;
   }
