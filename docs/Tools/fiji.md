@@ -21,6 +21,19 @@ Fiji is a wrapper over ImageJ which has lot of plugins pre-installed and provide
 2. Set measurements : Select relevant attributes for measurements.
 3. Analysze particles : Generates the results for selected attributes.
 
+eg. 
+
+1. Duplicate image
+2. Convert to 16-bit greyscale
+3. Invert (Ensure what you are interested in is in shaded of white)
+4. Remove background
+5. Gaussian Blur
+6. Threshold
+7. Watershed segmentations
+8. Erode/Dilate
+9. Set measurements
+10. Analyze particles
+
 UI shows various attributes of an image with different labels : 
 
 * c: Color.
