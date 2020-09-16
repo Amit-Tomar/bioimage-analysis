@@ -18,13 +18,13 @@ Following are some tools which are used for bio image analysis
 
 Capabilities of different tools :
 
-> ImageJ2 and Icy, which are designed to handle a very wide range of applications.
+> * ImageJ2 and Icy, which are designed to handle a very wide range of applications.
 >
-> CellProfiler and KNIME, especially for high-throughput analysis and data mining.
+> * CellProfiler and KNIME, especially for high-throughput analysis and data mining.
 >
-> ilastik, especially when its powerful machine learning features are needed to identify or classify challenging structures.
+> * ilastik, especially when its powerful machine learning features are needed to identify or classify challenging structures.
 >
-> QuPath, especially for digital pathology or whole slide image analysis.
+> * QuPath, especially for digital pathology or whole slide image analysis.
 >
-> <cite>[[Source]](https://petebankhead.gitbooks.io/imagej-intro/content/)</cite>
+> [[Source]](https://petebankhead.gitbooks.io/imagej-intro/content/)
 
